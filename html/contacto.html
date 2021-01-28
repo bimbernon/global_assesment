@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style-css/my-css.css" />
+    <title>CONTACTO</title>
+  </head>
+  <body>
+    <header>
+      <h1>BÁRBARA IMBERNÓN FUENTES</h1>
+      <h2>fullstack developer</h2>
+
+      <nav>
+        <ul>
+          <li><a href="./inicio.html">INICIO</a></li>
+          <li><a href="./contacto.html" class="current">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside id="personal-information">
+        <img
+          src="https://i.redd.it/6c5xxuwrxc021.jpg"
+          alt="foto perfil"
+          width="150"
+          height="175"
+        />
+        <p>Bárbara Imbernón Fuentes</p>
+        <p>27 años</p>
+        <p>Ferrol, A Coruña</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/barbaraimbernonfuentes/"
+              class="linkedin"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/bimbernon/" class="instagram"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/Beifff" class="twitter">Twitter</a>
+          </li>
+        </ul>
+      </aside>
+
+      <section id="contact">
+        <h1>Formulario</h1>
+
+        <form method="GET" action="">
+          <div>
+            <fieldset class="datosPersonales">
+              <legend>Datos de contacto</legend>
+
+              <div>
+                <label>
+                  Nombre:
+                  <input
+                    type="text"
+                    name="nombre"
+                    class="required"
+                    required
+                    autofocus
+                  />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Email:
+                  <input type="email" name="email" required />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Teléfono:
+                  <input type="tel" name="tel" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Página personal:
+                  <input
+                    type="text"
+                    name="personalPage"
+                    placeholder="Escribe la URL de tu página web personal"
+                  />
+                </label>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <fieldset class="dates">
+              <legend>Citas</legend>
+              <div>
+                <label>
+                  Fecha:
+                  <input type="date" name="date" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Tiempo:
+                  <input type="time" name="time" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Fecha y hora:
+                  <input type="datetime" name="datetime" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Mes:
+                  <input type="month" name="month" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Semana:
+                  <input type="week" name="week" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Número:
+                  <input type="number" name="number" min="-10" max="10" />
+                </label>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <fieldset class="otherInformation">
+              <legend>Otra información</legend>
+              <div>
+                <label>
+                  Búsqueda:
+                  <input type="search" name="search" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Color favorito:
+                  <input type="color" name="color" />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Comentarios:
+                  <textarea rows="4" cols="8" name="comentarios"></textarea>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+          <div>
+            <input type="submit" class="button" />
+            <input type="reset" class="button" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="google.es">google</a>
+      </li>
+      <li>
+        <a href="https://developer.mozilla.org/es/">documentación</a>
+      </li>
+    </ul>
+  </footer>
+</html>
